@@ -1,6 +1,6 @@
 # Logging
-BrainStation Logging assignment in Python
 
+ASSIGNMENT FOR BRAINSTATION
 
 **DISCLAIMER: 
 
