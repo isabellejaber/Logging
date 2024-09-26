@@ -1,0 +1,31 @@
+INFO:__main__:Salted key hashed using SHA256 algorithm
+INFO:__main__:AES encryption applied to hello world using the salted key
+INFO:__main__:Encrypted text is: j0uyggekdOd9jw8=
+INFO:__main__:ENCRYPTION COMPLETE
+
+INFO:__main__:Salted key hashed using SHA256 algorithm
+INFO:__main__:AES decryption applied to j0uyggekdOd9jw8= using the salted key
+INFO:__main__:Decrypted text is: hello world
+INFO:__main__:DECRYPTION COMPLETE
+
+ERROR:root:Error occurred: usage: encryptDecryptApplication.py [-h] [-p PLAINTEXT] [-k KEY]
+                                    {encrypt,decrypt}
+encryptDecryptApplication.py: error: argument mode: invalid choice: 'k' (choose from 'encrypt', 'decrypt')
+INFO:root:PLEASE TRY AGAIN
+
+INFO:__main__:Salted key hashed using SHA256 algorithm
+INFO:__main__:AES encryption applied to my name is using the salted key
+INFO:__main__:Encrypted text is: TgWGNQqsKwNrbQ==
+INFO:__main__:ENCRYPTION COMPLETE
+
+INFO:__main__:Salted key hashed using SHA256 algorithm
+INFO:__main__:AES decryption applied to TgWGNQqsKwNrbQ== using the salted key
+INFO:__main__:Decrypted text is: my name is
+INFO:__main__:DECRYPTION COMPLETE
+
+ERROR:__main__:Both plaintext and key are required for encryption.
+INFO:__main__:PLEASE TRY AGAIN
+
+ERROR:__main__:Both ciphertext and key are required for decryption.
+INFO:__main__:PLEASE TRY AGAIN
+
